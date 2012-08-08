@@ -21,5 +21,11 @@
 			"$file"
 		]
     },
-	"selector": "text.html"
+    "linux": {
+        "cmd": [
+        	"java -jar '${packages}/HTML Compressor/bin/htmlcompressor-1.5.3.jar' --compress-js --compress-css $file -o ${file_base_name}.min.${file_extension}"	
+		]
+    },
+	"selector": "text.html",
+	"shell": true
 }
