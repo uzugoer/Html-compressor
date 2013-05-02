@@ -1,7 +1,7 @@
 {
 	"cmd": [
 		"java",
-		"-jar", "${packages}/YUI Compressor/bin/yuicompressor-2.4.7.jar",
+		"-jar", "${packages}/HTML Compressor/bin/yuicompressor-2.4.7.jar",
 		"--charset", "utf-8",
 		"--preserve-semi",
 		"--line-break", "150",
@@ -11,7 +11,7 @@
     "windows": {
         "cmd": [
 			"java",
-			"-jar", "${packages}\\YUI Compressor\\bin\\yuicompressor-2.4.7.jar",
+			"-jar", "${packages}\\HTML Compressor\\bin\\yuicompressor-2.4.7.jar",
 			"--charset", "utf-8",
 			"--preserve-semi",
 			"--line-break", "150",
@@ -22,7 +22,7 @@
     "osx": {
         "cmd": [
 			"java",
-			"-jar", "${packages}/YUI Compressor/bin/yuicompressor-2.4.7.jar",
+			"-jar", "${packages}/HTML Compressor/bin/yuicompressor-2.4.7.jar",
 			"--charset", "utf-8",
 			"--preserve-semi",
 			"--line-break", "150",
